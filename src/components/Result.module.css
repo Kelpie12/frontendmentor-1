@@ -1,0 +1,103 @@
+.outter {
+  box-shadow: 1px 1px 2px lightgray;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  height: 370px;
+  align-items: left;
+  padding: 0 30px;
+}
+.flex {
+  display: flex;
+  color: black;
+}
+.red {
+  background-color: #fff6f5;
+  color: #d56a6a;
+}
+.yellow {
+  background-color: #fffbf2;
+  color: #e2b771;
+}
+.button {
+  border-radius: 20px;
+  color: white;
+  background-color: #303b59;
+  padding: 15px 0;
+  font-weight: bold;
+}
+.green {
+  background-color: #f2fbfa;
+  color: #31a688;
+}
+.blue {
+  background-color: #f3f3fd;
+  color: #232f97;
+}
+.bold {
+  font-weight: bold;
+}
+.block {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.title {
+  color: #4d5369;
+}
+.box {
+  padding: 25px 10px;
+  color: #ccbeff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  border-radius: 25px;
+  background: #332de9;
+}
+
+.paragraph {
+  width: 220px;
+}
+.of {
+  font-size: 12px;
+  font-weight: bold;
+}
+.great {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.white {
+  color: white;
+}
+
+.scorepoint {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.score {
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #452cdf;
+}
